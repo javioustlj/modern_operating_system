@@ -1,0 +1,4 @@
+Modern operating system is a book written by Andrew S. Tanenbaum. I tried to find a solution manual of this book's problem in every chapter, but failed.
+So I decided to write one.
+
+[[file:introduction.org][INTRODUCION]]
