@@ -4,12 +4,25 @@
    providing application programmers (and application programs, naturally) a clean abstract set of resources instead of the messy hardware ones
    and managing these hardware resources.
 2. In Section 1.4, nine different type of operating system are described. Give a list of applications for each of these systems (one per operating systems type).
+
+   - Mainframe operating system: as servers for large-scale electronic commerce sites
+   - Server operating system: as WEB servers;
+   - Multiprocessor operating system: Windows and Linux;
+   - Personal computer operating system: Windows an Linux;
+   - Handheld Computer operating system: Android and Apple's iOs;
+   - Embedded Operating system: TV sets, cars, MP3 players and so on;
+   - Sensor-Node Operating system: TinyOS, to protect fires in forests;
+   - Real-Time operating system: using in industrial process control;
+   - Smart card operating system: electronic payment;
 3. What is the difference between timesharing and multiprogramming system?
 
    Main difference between multiprogramming and time sharing is that multiprogramming is the effective utilization of CPU time, by allowing several programs to use the CPU at the same time but time sharing is the sharing of a computing facility by several users that want to use the same facility at the same time.
    Each user on a time sharing system gets his own terminal and gets the felling that he is using the CPU for himself.
    Actually, time sharing systems use the concept of multiprogramming to share the concept of multiprogramming to share the CPU time between multiple users at the same time.
 4. To use cache memory, main memory is divided into cache lines, typically 32 or 64 bytes long. An entire cache line is cached at once. What is the advantage of caching an entire line instead of a single byte or word at a time?
+
+Where if one location is read then the probability of accessing nearby locations next is very high. So, caching an entire line increases the probability of cache hit.
+Also, modern hardware caching an entire line is faster than reading the same data as individual words.
 5. On early computers, every byte of data read or written was handed by the CPU (i.e., there was no DMA). What implications does this have for multiprogramming?
 6. Instruction related to accessing to I/O devices are typically privileged instructions, that is, they can be executed in kernel mode but not in user mode. Give a reason why these instructions are privileged.
 7. The family-of-computers idea was introduced in the 1960s with the IBM System/360 mainframes. Is this idea now dead as a doornail or does it live on?
